@@ -1,0 +1,29 @@
+{
+    "name": "tatsh/gifnocxulfni",
+    "type": "library",
+    "description": "Configuration file parser",
+    "homepage": "https://github.com/Tatsh/gifnocxulfni",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Udvare",
+            "email": "audvare@gmail.com",
+            "homepage": "http://andrew.udvare.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "dev-master",
+        "phpmd/phpmd": "dev-master",
+        "instaclick/symfony2-coding-standard": "dev-remaster"
+    },
+    "autoload": {
+        "psr-0": { "Flux\\": "src/" }
+    },
+    "minimum-stability": "dev",
+    "config": {
+        "bin-dir": "bin"
+    }
+}

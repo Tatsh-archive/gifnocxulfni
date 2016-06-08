@@ -1,0 +1,9 @@
+# Wild spacing and random casing too
+    a=yes
+b =             no
+
+c=true
+d =                     FaLse
+
+e =               On
+        f =      Off

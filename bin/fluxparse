@@ -1,0 +1,20 @@
+#!/usr/bin/env php
+<?php
+spl_autoload_register(function ($class) {
+    include sprintf('%s/../src/%s.php', dirname(__FILE__), str_replace('\\', '/', $class));
+});
+
+function main($argc, $argv)
+{
+    if (!isset($argv[1])) {
+        fprintf(STDERR, "Usage: %s CONFIG_FILE\n", $argv[0]);
+        return 1;
+    }
+
+    $parser = new Flux\ConfigParser();
+    $config = $parser->parse($argv[1]);
+
+    print($config . "\n");
+}
+
+exit((int) main($argc, $argv));
