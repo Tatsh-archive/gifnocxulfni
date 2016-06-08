@@ -15,9 +15,8 @@
         "php": ">=5.5.9"
     },
     "require-dev": {
-        "phpunit/phpunit" : "dev-master",
-        "phpmd/phpmd": "dev-master",
-        "instaclick/symfony2-coding-standard": "dev-remaster"
+        "phpunit/phpunit" : "4.8.x-dev",
+        "phpmd/phpmd": "dev-master"
     },
     "autoload": {
         "psr-0": { "Flux\\": "src/" }
