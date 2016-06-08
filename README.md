@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Tatsh/gifnocxulfni.svg?branch=master)](https://travis-ci.org/Tatsh/gifnocxulfni)
+
 # Usage
 
 Use Composer or use a simple auto-loader like this one:
